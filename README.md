@@ -4,3 +4,5 @@
 - [x] Challenge 2: Use React Navigation
     - [x] Create screen components
     - [x] Create bottom tab navigator
+    - [x] Add screens to tab
+- [x] Challenge 3: Add icons
