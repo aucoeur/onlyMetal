@@ -7,11 +7,20 @@ export default function BandDetailScreen({route}) {
 
   return (
     <View style={style.container}>
-      <Text style={style.title}>Band: {item.band_name}</Text>
-      <Text style={style.subtitle}>{item.formed}{item.split !== '-' ? `-${item.split}` : '' }</Text>
-      <Text style={style.subtitle}>Origin: {item.origin}</Text>
-      <Text style={style.subtitle}>Style: {item.style}</Text>
-      <Text style={style.subtitle}>Fans: {item.fans}</Text>
+      <Text style={style.header}>{item.band_name}</Text>
+      <Text style={style.title}>{item.formed}{item.split !== '-' ? `-${item.split}` : '' }</Text>
+      <View style={style.details}>
+        <Text style={style.title}>Origin: </Text>
+        <Text style={style.subtitle}>{item.origin}</Text>
+      </View>
+      <View style={style.details}>
+        <Text style={style.title}>Style: </Text>
+        <Text style={style.subtitle}>{item.style}</Text>
+      </View>
+      <View style={style.details}>
+        <Text style={style.title}>Fans: </Text>
+        <Text style={style.subtitle}>{item.fans}</Text>
+      </View>
     </View>
   )
 }
@@ -19,15 +28,37 @@ export default function BandDetailScreen({route}) {
 const style = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#000',
+    color: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  details: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  header: {
+    fontSize: 30,
+    color: '#fff',
+    backgroundColor: '#000',
+  },
   title: {
     fontSize: 20,
-    backgroundColor: '#fff',
-    color: '#000',
-    alignItems: 'center',
+    fontWeight: 'bold',
+    color: '#fff',
+    backgroundColor: '#000',
+    paddingRight: 10,
+    alignItems: 'flex-start',
+  },
+  subtitle: {
+    flexDirection: 'column',
+    flexBasis: 100,
+    // flexWrap: 'wrap',
+    fontSize: 20,
+    color: '#fff',
+    backgroundColor: '#000',
+    alignItems: 'flex-start',
     justifyContent: 'space-between',
   }
 })

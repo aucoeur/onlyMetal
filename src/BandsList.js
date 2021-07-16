@@ -5,6 +5,8 @@ import Band from './Band';
 
 import bands from '../data/metal';
 
+const Separator = () => <View style={style.separator} />
+
 export default function BandsList({navigation}) {
 
   const renderBand = ({ item }) =>
@@ -24,6 +26,7 @@ export default function BandsList({navigation}) {
           data={bands}
           renderItem={renderBand}
           keyExtractor={(item) => (item.band_name)}
+          ItemSeparatorComponent={Separator}
         />
       </View>
     </SafeAreaView>
@@ -40,5 +43,11 @@ const style = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-around',
     width: '100%',
+    backgroundColor: "#000",
+    padding: 15,
+  },
+  separator: {
+    height: StyleSheet.hairlineWidth,
+    backgroundColor: '#ccc',
   },
 });
