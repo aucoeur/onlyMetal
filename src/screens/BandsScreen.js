@@ -1,8 +1,8 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import BandsList from './BandsList';
-import BandDetailScreen from './BandDetailScreen';
+import BandsList from '../components/Bands/BandsList';
+import BandDetailScreen from '../components/Bands/BandDetailScreen';
 
 const Stack = createStackNavigator();
 

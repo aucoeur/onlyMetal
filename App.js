@@ -6,9 +6,9 @@ import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-import BandsScreen from './src/BandsScreen';
-import StatsScreen from './src/StatsScreen';
-import StylesScreen from './src/StylesScreen';
+import BandsScreen from './src/screens/BandsScreen';
+import StatsScreen from './src/screens/StatsScreen';
+import StylesScreen from './src/screens/StylesScreen';
 
 
 const Tab = createBottomTabNavigator();

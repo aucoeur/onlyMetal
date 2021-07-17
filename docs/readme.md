@@ -109,7 +109,7 @@ Look at the images and try to match the general styles you see.
   - Layout looks like the image
     - Band Name and formation date are on the left
     - Country of Origin and fans on the right
-  - Band name and Countery name
+  - Band name and Country name
     - font size 18
   - Fans
     - font size 12
@@ -152,11 +152,11 @@ Besides the wide array of interesting and creative bands names metal also has an
 
 Each band has a "style" listed in the JSON data. You're goal is to count the unique styles. 
 
-Display the count of unique metal styles on the Statictics screen. Something like: 
+Display the count of unique metal styles on the Statistics screen. Something like: 
 
 - **Styles:** 47
 
-(It's notable that out of 50 bands there are 47 unqiue styles!)
+(It's notable that out of 50 bands there are 47 unique styles!)
 
 Note! styles is a string but a band may subscribe to multiple styles! The styles are separated by a comma! 
 
@@ -168,7 +168,7 @@ For example:
 
 Shows a band with two styles: 
 
-- New wave of british heavy
+- New wave of British heavy
 - Heavy
 
 Take this into account when you count the styles. 
