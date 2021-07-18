@@ -34,7 +34,7 @@ const bandMap = uniqueBands.map(band => {
 });
 
 const data = bandMap;
-console.log(data.length, bands.length);
+// console.log(data.length, bands.length);
 
 const getCount = data.length;
 const getFans = data.reduce((total, band) => total + band.fans, 0);

@@ -13,7 +13,9 @@ export default function BandsList({navigation}) {
     <Band
       name={item.band_name}
       showDetails={() => {
-        navigation.navigate('BandDetails', { item });
+        navigation.navigate('BandDetails', {
+          name: item.band_name,
+          item });
       }}
     />
 

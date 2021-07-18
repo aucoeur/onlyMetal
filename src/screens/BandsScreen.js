@@ -11,7 +11,10 @@ export default function BandsScreen() {
   return (
     <Stack.Navigator screenOptions={stackStyle}>
       <Stack.Screen name="Bands" component={BandsList} />
-      <Stack.Screen name="BandDetails" component={BandDetailScreen} />
+      <Stack.Screen
+        name="BandDetails" component={BandDetailScreen}
+        options={({ route }) => ({ title: route.params.name })}
+      />
     </Stack.Navigator>
   );
 }

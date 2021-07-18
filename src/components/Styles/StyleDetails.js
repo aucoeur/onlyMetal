@@ -23,7 +23,7 @@ const style = StyleSheet.create({
     backgroundColor: '#000',
     color: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'space-around',
     paddingTop: 20,
   },
   name: {
