@@ -18,11 +18,20 @@ const getSplitBands = data.filter(band => band.split !== '-').length;
 
 const getUniqueStyles = [...new Set(data.reduce((styles, band) => styles.concat(band.style.split(",")), []))];
 
+const groupByStyle = data.reduce((map, band) => {
+  const styles = band.style.split(",");
+  styles.forEach(style => {
+    map[style] = map[style] || [];
+    map[style].push(band);
+  });
+  return map;
+}, {});
+
 // console.log(getCount)
 // console.log(getFans)
 // console.log(formatFans)
 // console.log(getUniqueCountries)
 // console.log(getActiveBands)
-// console.log(getUniqueStyles)
+console.log(groupByStyle);
 
-export { multiply, getCount, getFans, formatFans, getUniqueCountries, getActiveBands, getSplitBands, getUniqueStyles }
+export { multiply, getCount, getFans, formatFans, getUniqueCountries, getActiveBands, getSplitBands, getUniqueStyles, groupByStyle }

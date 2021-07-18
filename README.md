@@ -21,4 +21,4 @@
 - [x] Challenge 7: Match styling to sample images
 - [x] Challenge 8: Conditional styles
 - [x] Challenge 9: Styles of Metal
-- [ ] Challenge 10: List unique styles
+- [x] Challenge 10: List unique styles

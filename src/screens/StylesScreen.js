@@ -1,19 +1,28 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { createStackNavigator } from '@react-navigation/stack';
 
-export default function StylesScreen() {
+import StylesList from '../components/Styles/StylesList';
+import StyleDetails from '../components/Styles/StyleDetails';
+
+const Stack = createStackNavigator();
+
+export default function StylessScreen() {
+
   return (
-    <View style={style.container}>
-      <Text> Style Screen</Text>
-    </View>
+    <Stack.Navigator screenOptions={stackStyle}>
+      <Stack.Screen name="Styles" component={StylesList} />
+      <Stack.Screen name="StyleDetails" component={StyleDetails} />
+    </Stack.Navigator>
   );
 }
 
-const style = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+const stackStyle = ({
+  headerStyle: {
+    backgroundColor: 'rgba(0, 0, 15, 0.7)',
+  },
+  headerTintColor: '#fff',
+  headerTitleStyle: {
+    fontWeight: 'bold',
+    fontSize: 24,
   },
 });

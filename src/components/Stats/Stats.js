@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, FlatList, SafeAreaView } from 'react-native';
+import { View, Text, StyleSheet, SafeAreaView } from 'react-native';
 
 import { getCount, formatFans, getUniqueCountries, getActiveBands, getSplitBands, getUniqueStyles } from '../../../data/utils';
 
