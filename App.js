@@ -2,7 +2,6 @@ import { StatusBar } from 'expo-status-bar';
 import { FontAwesome5 as Icon } from '@expo/vector-icons';
 
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
@@ -15,6 +14,8 @@ const Tab = createBottomTabNavigator();
 
 export default function App() {
   return (
+    <>
+    <StatusBar style="light" />
     <NavigationContainer>
       <Tab.Navigator
         screenOptions={({ route}) => ({
@@ -57,14 +58,6 @@ export default function App() {
         <Tab.Screen name="Styles" component={StylesScreen} />
       </Tab.Navigator>
     </NavigationContainer>
+  </>
   );
 }
-
-const style = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

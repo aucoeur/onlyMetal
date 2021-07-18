@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, FlatList, SafeAreaView } from 'react-native';
 
 import Band from './Band';
 
-import bands from '../../../data/metal.json'
+import { bandMap as bands } from '../../../data/utils';
 
 const Separator = () => <View style={style.separator} />
 

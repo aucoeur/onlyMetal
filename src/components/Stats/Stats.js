@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, SafeAreaView } from 'react-native';
 
-import { getCount, formatFans, getUniqueCountries, getActiveBands, getSplitBands, getUniqueStyles } from '../../../data/utils';
+import { multiply, getCount, formatFans, getUniqueCountries, getActiveBands, getSplitBands, getUniqueStyles } from '../../../data/utils';
 
 export default function Stats() {
 
@@ -11,27 +11,27 @@ export default function Stats() {
         <Text style={style.header}>MetalOnlyFans  🤘</Text>
         <View style={style.row}>
           <Text style={style.title}>Count: </Text>
-          <Text style={style.subtitle}>{getCount}</Text>
+          <Text style={style.subtitle}>{multiply(getCount, 1)}</Text>
         </View>
         <View style={style.row}>
           <Text style={style.title}>Fans: </Text>
           <Text style={style.subtitle}>{formatFans}</Text>
         </View>
         <View style={style.row}>
-          <Text style={style.title}>Countries:</Text>
+          <Text style={style.title}>Countries: </Text>
           <Text style={style.subtitle}>{getUniqueCountries.length}</Text>
         </View>
         <View style={style.row}>
           <Text style={style.title}>Active: </Text>
-          <Text style={style.subtitle}>{getActiveBands}</Text>
+          <Text style={style.subtitle}>{multiply(getActiveBands,1)}</Text>
         </View>
         <View style={style.row}>
           <Text style={style.title}>Split: </Text>
-          <Text style={style.subtitle}>{getSplitBands}</Text>
+          <Text style={style.subtitle}>{multiply(getSplitBands,1)}</Text>
         </View>
         <View style={style.row}>
           <Text style={style.title}>Unique Styles: </Text>
-          <Text style={style.subtitle}>{getUniqueStyles.length}</Text>
+          <Text style={style.subtitle}>{multiply(getUniqueStyles.length,1)}</Text>
         </View>
       </View>
     </SafeAreaView>

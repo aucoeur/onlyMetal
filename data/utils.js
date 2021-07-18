@@ -62,4 +62,4 @@ const groupByStyle = data.reduce((styles, band) => {
 // console.log(getUniqueStyles);
 // console.log(groupByStyle['Heavy']);
 
-export { alphabetize, multiply, getCount, getFans, formatFans, getUniqueCountries, getActiveBands, getSplitBands, getUniqueStyles, groupByStyle }
+export { alphabetize, multiply, bandMap, getCount, getFans, formatFans, getUniqueCountries, getActiveBands, getSplitBands, getUniqueStyles, groupByStyle }

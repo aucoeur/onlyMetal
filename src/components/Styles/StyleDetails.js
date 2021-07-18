@@ -2,16 +2,18 @@ import React from 'react';
 import { View, Text, StyleSheet, FlatList } from 'react-native';
 
 export default function StyleDetails({route}) {
-  const {name, item} = route.params;
+  const {_, item} = route.params;
+  const renderItem = ({item}) =>
+    (<View key={item.band_name}>
+      <Text style={item.split === '-' ? style.name : style.deadname}>{item.band_name}</Text>
+    </View>)
 
   return (
     <View style={style.container}>
       <FlatList
         data={item}
         keyExtractor={(item) => item.band_name}
-        renderItem={({item}) =>
-          <Text style={item.split === '-' ? style.name : style.deadname}>{item.band_name}</Text>
-        }
+        renderItem={renderItem}
         />
     </View>
   )

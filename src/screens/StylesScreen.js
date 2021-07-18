@@ -18,7 +18,7 @@ export default function StylessScreen() {
 
 const stackStyle = ({
   headerStyle: {
-    backgroundColor: 'rgba(0, 0, 15, 0.7)',
+    backgroundColor: 'rgba(0, 0, 0, 0.8)',
   },
   headerTintColor: '#fff',
   headerTitleStyle: {

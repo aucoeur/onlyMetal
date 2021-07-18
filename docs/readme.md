@@ -4,11 +4,11 @@ Metal fans need an app and you have to make it. Follow these steps to build the 
 
 These images show what you would be making.
 
-![final-metal-tab-1](final-metal-tab-1.png)
-
-![final-metal-tab-2](final-metal-tab-2.png)
-
-![final-metal-tab-2](final-metal-tab-3.png)
+<div style="text-align:center">
+<img src="./examples/final-metal-tab-1.png" width=300 alt="band tab">  
+<img src="./examples/final-metal-tab-3.png" width=300 alt="stats tab">  
+<img src="./examples/final-metal-tab-2.png" width=300 alt="styles tab">  
+</div>
 
 The core of the assessment is making the app. Save the styling and details for last. This will save you time as you work without wasting time solving problems that are not core to the app. For this reason, I recommend you solve the problems in the order listed here. 
 

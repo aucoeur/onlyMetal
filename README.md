@@ -1,5 +1,16 @@
 # onlyMetal - FEW 2.4 Final Assessment
 
+<div style="text-align:center">
+<img src="./docs/band_tab.png" width=250 alt="band tab" />  
+<img src="./docs/band_details.png" width=250 alt="band details tab" />  
+<br />
+<img src="./docs/styles_tab.png" width=250 alt="styles tab" />  
+<img src="./docs/style_details.png" width=250 alt="styles tab" />  
+<br />
+<img src="./docs/stats_tab.png" width=250 alt="stats tab" />
+</div>
+
+## Todo
 - [x] Challenge 1: Init React Native Project
 - [x] Challenge 2: Use React Navigation
     - [x] Create screen components
