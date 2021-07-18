@@ -9,8 +9,10 @@ export default function BandDetailScreen({route}) {
   return (
     <View style={style.container}>
       <View style={style.header}>
-        <Text style={style.name}>{item.band_name} 🤘</Text>
-      </View>
+        <View style={style.header} />
+          <Text style={item.split === '-' ? style.name : style.deadname }>{item.band_name}</Text>
+          <Text style={style.name}>{item.split === '-' ? '🤘' : '💀'}</Text>
+        </View>
       <View style={style.body}>
       <View style={style.row}>
         <Text style={style.title}>Formed: </Text>
@@ -46,6 +48,7 @@ const style = StyleSheet.create({
     justifyContent: 'center',
   },
   header: {
+    flexDirection: 'row',
     alignItems: 'flex-start',
     justifyContent: 'space-around',
     paddingBottom: 10,
@@ -54,6 +57,12 @@ const style = StyleSheet.create({
     fontSize: 30,
     color: '#fff',
     backgroundColor: '#000',
+  },
+  deadname: {
+    fontSize: 30,
+    color: '#666',
+    // backgroundColor: '#000',
+    textDecorationLine: 'line-through',
   },
   row: {
     flexDirection: 'row',

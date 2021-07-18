@@ -20,5 +20,5 @@
 - [x] Challenge 6: Stats tab
 - [x] Challenge 7: Match styling to sample images
 - [x] Challenge 8: Conditional styles
-- [ ] Challenge 9: Styles of Metal
+- [x] Challenge 9: Styles of Metal
 - [ ] Challenge 10: List unique styles
