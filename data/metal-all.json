@@ -1320,7 +1320,7 @@
    "formed": "1986",
    "origin": "Norway",
    "split": "-",
-   "style": "Death,Black,Crust punk ,Heavy"
+   "style": "Death,Black,Crust punk,Heavy"
  },
  {
    "ID": 147,
@@ -1464,7 +1464,7 @@
    "formed": "1985",
    "origin": "USA",
    "split": "-",
-   "style": "Grunge ,Heavy"
+   "style": "Grunge,Heavy"
  },
  {
    "ID": 163,
@@ -1671,7 +1671,7 @@
    "formed": "1992",
    "origin": "Norway",
    "split": "1992",
-   "style": "Folk,Electronic,Avantgarde ,Black"
+   "style": "Folk,Electronic,Avantgarde,Black"
  },
  {
    "ID": 186,
@@ -2238,7 +2238,7 @@
    "formed": "1987",
    "origin": "Sweden",
    "split": "-",
-   "style": "Death,Death ',N',Roll"
+   "style": "Death,Death 'N Roll"
  },
  {
    "ID": 249,
@@ -2310,7 +2310,7 @@
    "formed": "1964",
    "origin": "USA",
    "split": "-",
-   "style": "Hard rock,Glam rock,New,Wave ,Heavy"
+   "style": "Hard rock,Glam rock,New,Wave,Heavy"
  },
  {
    "ID": 257,
@@ -2535,7 +2535,7 @@
    "formed": "1985",
    "origin": "USA",
    "split": "1985",
-   "style": "Atmospheric sludge,Post-hardcore ,Post-metal"
+   "style": "Atmospheric sludge,Post-hardcore,Post-metal"
  },
  {
    "ID": 282,
@@ -3534,7 +3534,7 @@
    "formed": "1984",
    "origin": "USA",
    "split": "-",
-   "style": "Grunge ,Stoner"
+   "style": "Grunge,Stoner"
  },
  {
    "ID": 393,
@@ -6090,7 +6090,7 @@
    "formed": "1989",
    "origin": "Germany",
    "split": "-",
-   "style": "E,B,M ,Industrial,Industrial rock,Industrial"
+   "style": "EBM,Industrial,Industrial rock,Industrial"
  },
  {
    "ID": 677,
@@ -6153,7 +6153,7 @@
    "formed": "1999",
    "origin": "Norway",
    "split": "1999",
-   "style": "Jazz,Experimental,Jazz ,Avantgarde"
+   "style": "Jazz,Experimental,Jazz,Avantgarde"
  },
  {
    "ID": 684,
@@ -6414,7 +6414,7 @@
    "formed": "2003",
    "origin": "United Kingdom",
    "split": "-",
-   "style": "Drone,Shoegaze ,Post-metal"
+   "style": "Drone,Shoegaze,Post-metal"
  },
  {
    "ID": 713,
@@ -6450,7 +6450,7 @@
    "formed": "1979",
    "origin": "United Kingdom",
    "split": "-",
-   "style": "Industrial,Post-,Punk,Darkwave"
+   "style": "Industrial,Post-Punk,Darkwave"
  },
  {
    "ID": 717,
@@ -8817,7 +8817,7 @@
    "formed": "2010",
    "origin": "United Kingdom",
    "split": "2010",
-   "style": "Folk,Post-,Rock"
+   "style": "Folk,Post-Rock"
  },
  {
    "ID": 980,
@@ -10995,7 +10995,7 @@
    "formed": "1997",
    "origin": "USA",
    "split": "1997",
-   "style": "Deathgrind,Goregrind ,Death"
+   "style": "Deathgrind,Goregrind,Death"
  },
  {
    "ID": 1222,
@@ -11409,7 +11409,7 @@
    "formed": "2002",
    "origin": "Canada",
    "split": "2002",
-   "style": "Ambient,Drone ,Doom"
+   "style": "Ambient,Drone,Doom"
  },
  {
    "ID": 1268,
@@ -12201,7 +12201,7 @@
    "formed": "1993",
    "origin": "Sweden",
    "split": "1993",
-   "style": "Progressive metalcore,Hardcore,Post-hardcore ,Post-metal,Progressive sludge"
+   "style": "Progressive metalcore,Hardcore,Post-hardcore,Post-metal,Progressive sludge"
  },
  {
    "ID": 1356,
@@ -13812,7 +13812,7 @@
    "formed": "1985",
    "origin": "United Kingdom",
    "split": "-",
-   "style": "Crust,Punk ,Death,Grindcore"
+   "style": "Crust,Punk,Death,Grindcore"
  },
  {
    "ID": 1535,
@@ -15756,7 +15756,7 @@
    "formed": "2006",
    "origin": "USA",
    "split": "-",
-   "style": "Ambient,Drone,Post-,Rock"
+   "style": "Ambient,Drone,Post-Rock"
  },
  {
    "ID": 1751,
@@ -16026,7 +16026,7 @@
    "formed": "2002",
    "origin": "Sweden",
    "split": "-",
-   "style": "Death ',N',Roll"
+   "style": "Death 'N Roll"
  },
  {
    "ID": 1781,
@@ -16035,7 +16035,7 @@
    "formed": "2007",
    "origin": "The Netherlands",
    "split": "2007",
-   "style": "Shoegaze ,Black"
+   "style": "Shoegaze,Black"
  },
  {
    "ID": 1782,
@@ -17952,7 +17952,7 @@
    "formed": "2009",
    "origin": "Latvia",
    "split": "-",
-   "style": "Atmospheric black,Post-,Rock,Shoegaze"
+   "style": "Atmospheric black,Post-Rock,Shoegaze"
  },
  {
    "ID": 1995,
@@ -18015,7 +18015,7 @@
    "formed": "2008",
    "origin": "France",
    "split": "2008",
-   "style": "Post-,Rock,Atmospheric sludge"
+   "style": "Post-Rock,Atmospheric sludge"
  },
  {
    "ID": 2002,
@@ -20805,7 +20805,7 @@
    "formed": "2005",
    "origin": "USA",
    "split": "2005",
-   "style": "Neofolk ,Black"
+   "style": "Neofolk,Black"
  },
  {
    "ID": 2312,
@@ -26358,7 +26358,7 @@
    "formed": "2003",
    "origin": "France",
    "split": "-",
-   "style": "Death ',N',Roll"
+   "style": "Death 'N Roll"
  },
  {
    "ID": 2929,
@@ -26727,7 +26727,7 @@
    "formed": "2005",
    "origin": "Denmark",
    "split": "2005",
-   "style": "Djent ,Progressive,Progressive rock"
+   "style": "Djent,Progressive,Progressive rock"
  },
  {
    "ID": 2970,
@@ -28176,7 +28176,7 @@
    "formed": "2010",
    "origin": "USA",
    "split": "-",
-   "style": "Ambient black,Shoegaze,Drone doom,Post-,Rock"
+   "style": "Ambient black,Shoegaze,Drone doom,Post-Rock"
  },
  {
    "ID": 3131,
@@ -31335,7 +31335,7 @@
    "formed": "2004",
    "origin": "Russia",
    "split": "2004",
-   "style": "Ambient ,Doom,Electronica,Experimental ,Industrial"
+   "style": "Ambient,Doom,Electronica,Experimental,Industrial"
  },
  {
    "ID": 3482,
@@ -33747,7 +33747,7 @@
    "formed": "2008",
    "origin": "United Kingdom",
    "split": "2008",
-   "style": "Post-,Rock ,Post-metal"
+   "style": "Post-Rock,Post-metal"
  },
  {
    "ID": 3750,
@@ -34071,7 +34071,7 @@
    "formed": "1988",
    "origin": "Finland",
    "split": "1988",
-   "style": "Grindcore,Death ',N',Roll ,Hard rock,Rock"
+   "style": "Grindcore,Death 'N Roll,Hard rock,Rock"
  },
  {
    "ID": 3786,
@@ -36078,7 +36078,7 @@
    "formed": "1994",
    "origin": "Latvia",
    "split": "-",
-   "style": "Death,Death ',N',Roll"
+   "style": "Death,Death 'N Roll"
  },
  {
    "ID": 4009,
@@ -36978,7 +36978,7 @@
    "formed": "2001",
    "origin": "Latvia",
    "split": "-",
-   "style": "Death ',N',Roll"
+   "style": "Death 'N Roll"
  },
  {
    "ID": 4109,
@@ -37608,7 +37608,7 @@
    "formed": "2003",
    "origin": "USA",
    "split": "-",
-   "style": "Hardcore,Post-,Hardcore,Punk"
+   "style": "Hardcore,Post-Hardcore,Punk"
  },
  {
    "ID": 4179,
@@ -37968,7 +37968,7 @@
    "formed": "2012",
    "origin": "USA",
    "split": "-",
-   "style": "Groove metal ,Hardcore"
+   "style": "Groove metal,Hardcore"
  },
  {
    "ID": 4219,
@@ -38841,7 +38841,7 @@
    "formed": "1986",
    "origin": "USA",
    "split": "1986",
-   "style": "Progressive rock,Symphonic rock,Fusion ,Progressive,Instrumental"
+   "style": "Progressive rock,Symphonic rock,Fusion,Progressive,Instrumental"
  },
  {
    "ID": 4316,
@@ -42306,7 +42306,7 @@
    "formed": "2008",
    "origin": "USA",
    "split": "-",
-   "style": "Grindcore,Noise,Power,Electronics ,Black"
+   "style": "Grindcore,Noise,Power,Electronics,Black"
  },
  {
    "ID": 4701,
@@ -43170,7 +43170,7 @@
    "formed": "2014",
    "origin": "USA",
    "split": "-",
-   "style": "Crust,Punk ,Black,Grindcore"
+   "style": "Crust,Punk,Black,Grindcore"
  },
  {
    "ID": 4797,
@@ -44511,7 +44511,7 @@
    "formed": "2012",
    "origin": "Latvia",
    "split": "2012",
-   "style": "Crust,Punk ,Black"
+   "style": "Crust,Punk,Black"
  },
  {
    "ID": 4946,

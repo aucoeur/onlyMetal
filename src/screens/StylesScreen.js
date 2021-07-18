@@ -11,7 +11,7 @@ export default function StylessScreen() {
   return (
     <Stack.Navigator screenOptions={stackStyle}>
       <Stack.Screen name="Styles" component={StylesList} />
-      <Stack.Screen name="StyleDetails" component={StyleDetails} />
+      <Stack.Screen name="StyleDetails" component={StyleDetails} options={({ route }) => ({ title: route.params.name })}/>
     </Stack.Navigator>
   );
 }

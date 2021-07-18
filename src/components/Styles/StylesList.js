@@ -2,22 +2,13 @@ import React from 'react';
 import { SafeAreaView, FlatList, StyleSheet, View } from 'react-native';
 
 import Style from './Style';
-import { groupByStyle } from '../../../data/utils';
+import { alphabetize, groupByStyle } from '../../../data/utils';
 
 const Separator = () => <View style={style.separator} />
 
 export default function StylesList({navigation}) {
-  // sort styles by name
-  const sortedStyles = Object.keys(groupByStyle).sort((a,b) => {
-    if (a.toLowerCase() > b.toLowerCase()) {
-      return 1;
-    } else if (a.toLowerCase() < b.toLowerCase()) {
-      return -1;
-    } else {
-      return 0;
-    }
-  })
-  // console.log(sortedStyles)
+
+  const sortedStyles = alphabetize(Object.keys(groupByStyle))
 
   return (
     <SafeAreaView style={style.container}>
@@ -25,8 +16,8 @@ export default function StylesList({navigation}) {
       <FlatList
         data={sortedStyles}
         renderItem={({item}) => (
-          <Style name={item}
-
+          <Style
+            name={item}
             showDetails={() => {
               navigation.navigate('StyleDetails', {
                 name: item,

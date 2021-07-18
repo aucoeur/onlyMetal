@@ -1,20 +1,18 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-
+import { View, Text, StyleSheet, FlatList } from 'react-native';
 
 export default function StyleDetails({route}) {
   const {name, item} = route.params;
 
   return (
     <View style={style.container}>
-      <Text style={style.title}>{name}</Text>
-
-      <View style={style.subtitle}>
-        { item.map(obj =>
-          <Text style={obj.split === '-' ? style.name : style.deadname}>{obj.band_name}</Text>
-        )}
-      </View>
-
+      <FlatList
+        data={item}
+        keyExtractor={(item) => item.band_name}
+        renderItem={({item}) =>
+          <Text style={item.split === '-' ? style.name : style.deadname}>{item.band_name}</Text>
+        }
+        />
     </View>
   )
 }
@@ -26,36 +24,18 @@ const style = StyleSheet.create({
     color: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  header: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingBottom: 10,
+    paddingTop: 20,
   },
   name: {
-    fontSize: 30,
+    fontSize: 25,
     color: '#fff',
     backgroundColor: '#000',
+    padding: 7,
   },
   deadname: {
-    fontSize: 30,
+    fontSize: 25,
     color: '#666',
     textDecorationLine: 'line-through',
+    padding: 7,
   },
-  title: {
-    fontSize: 40,
-    fontWeight: 'bold',
-    color: '#fff',
-    backgroundColor: '#000',
-    marginBottom: 15,
-  },
-  subtitle: {
-    flexDirection: 'column',
-    alignItems: 'baseline',
-    justifyContent: 'space-around',
-    fontSize: 20,
-    color: '#fff',
-    backgroundColor: '#000',
-  }
 })
