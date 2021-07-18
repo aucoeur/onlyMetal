@@ -6,7 +6,7 @@
    "formed": "1975",
    "origin": "United Kingdom",
    "split": "-",
-   "style": "New wave of british heavy, Heavy"
+   "style": "New wave of british heavy,Heavy"
  },
  {
    "ID": 1,
@@ -15,7 +15,7 @@
    "formed": "1990",
    "origin": "Sweden",
    "split": "1990",
-   "style": "Extreme progressive, Progressive rock, Progressive"
+   "style": "Extreme progressive,Progressive rock,Progressive"
  },
  {
    "ID": 2,
@@ -24,7 +24,7 @@
    "formed": "1981",
    "origin": "USA",
    "split": "-",
-   "style": "Heavy, Bay area thrash"
+   "style": "Heavy,Bay area thrash"
  },
  {
    "ID": 3,
@@ -33,7 +33,7 @@
    "formed": "1983",
    "origin": "USA",
    "split": "1983",
-   "style": "Thrash, Heavy, Hard rock"
+   "style": "Thrash,Heavy,Hard rock"
  },
  {
    "ID": 4,
@@ -60,7 +60,7 @@
    "formed": "1983",
    "origin": "USA",
    "split": "2001",
-   "style": "Progressive death, Death, Progressive thrash"
+   "style": "Progressive death,Death,Progressive thrash"
  },
  {
    "ID": 7,
@@ -78,7 +78,7 @@
    "formed": "1968",
    "origin": "United Kingdom",
    "split": "-",
-   "style": "Doom, Heavy, Hard rock"
+   "style": "Doom,Heavy,Hard rock"
  },
  {
    "ID": 9,
@@ -87,7 +87,7 @@
    "formed": "1996",
    "origin": "Finland",
    "split": "1996",
-   "style": "Symphonic power, Gothic, Symphonic"
+   "style": "Symphonic power,Gothic,Symphonic"
  },
  {
    "ID": 10,
@@ -105,7 +105,7 @@
    "formed": "1969",
    "origin": "United Kingdom",
    "split": "1969",
-   "style": "Heavy, Hard rock"
+   "style": "Heavy,Hard rock"
  },
  {
    "ID": 12,
@@ -114,7 +114,7 @@
    "formed": "1984",
    "origin": "Germany",
    "split": "-",
-   "style": "Power, Speed"
+   "style": "Power,Speed"
  },
  {
    "ID": 13,
@@ -123,7 +123,7 @@
    "formed": "1990",
    "origin": "Sweden",
    "split": "1990",
-   "style": "Gothenburg, Alternative"
+   "style": "Gothenburg,Alternative"
  },
  {
    "ID": 14,
@@ -132,7 +132,7 @@
    "formed": "1981",
    "origin": "USA",
    "split": "2003",
-   "style": "Heavy, Groove thrash, Groove metal"
+   "style": "Heavy,Groove thrash,Groove metal"
  },
  {
    "ID": 15,
@@ -150,7 +150,7 @@
    "formed": "1995",
    "origin": "USA",
    "split": "2016",
-   "style": "Atmospheric black, Neofolk"
+   "style": "Atmospheric black,Neofolk"
  },
  {
    "ID": 17,
@@ -177,7 +177,7 @@
    "formed": "1991",
    "origin": "Sweden",
    "split": "1991",
-   "style": "Blackened doom, Death doom, Alternative rock, Gothic doom"
+   "style": "Blackened doom,Death doom,Alternative rock,Gothic doom"
  },
  {
    "ID": 20,
@@ -186,7 +186,7 @@
    "formed": "1991",
    "origin": "Poland",
    "split": "-",
-   "style": "Death, Black, Blackened death"
+   "style": "Death,Black,Blackened death"
  },
  {
    "ID": 21,
@@ -195,7 +195,7 @@
    "formed": "1993",
    "origin": "Norway",
    "split": "1993",
-   "style": "Symphonic black, Black"
+   "style": "Symphonic black,Black"
  },
  {
    "ID": 22,
@@ -231,7 +231,7 @@
    "formed": "1990",
    "origin": "Finland",
    "split": "1990",
-   "style": "Death, Melodic death, Folk, Progressive"
+   "style": "Death,Melodic death,Folk,Progressive"
  },
  {
    "ID": 26,
@@ -249,7 +249,7 @@
    "formed": "1988",
    "origin": "USA",
    "split": "1988",
-   "style": "Progressive, Alternative"
+   "style": "Progressive,Alternative"
  },
  {
    "ID": 28,
@@ -258,7 +258,7 @@
    "formed": "1978",
    "origin": "Germany",
    "split": "-",
-   "style": "Speed, Power"
+   "style": "Speed,Power"
  },
  {
    "ID": 29,
@@ -285,7 +285,7 @@
    "formed": "1990",
    "origin": "Norway",
    "split": "1990",
-   "style": "Death, Black"
+   "style": "Death,Black"
  },
  {
    "ID": 32,
@@ -303,7 +303,7 @@
    "formed": "1985",
    "origin": "USA",
    "split": "1985",
-   "style": "Heavy, Us power"
+   "style": "Heavy,Us power"
  },
  {
    "ID": 34,
@@ -312,7 +312,7 @@
    "formed": "1990",
    "origin": "United Kingdom",
    "split": "-",
-   "style": "Death doom, Atmospheric rock, Doom"
+   "style": "Death doom,Atmospheric rock,Doom"
  },
  {
    "ID": 35,
@@ -321,7 +321,7 @@
    "formed": "1994",
    "origin": "USA",
    "split": "1994",
-   "style": "Progressive, Symphonic power"
+   "style": "Progressive,Symphonic power"
  },
  {
    "ID": 36,
@@ -330,7 +330,7 @@
    "formed": "2002",
    "origin": "Switzerland",
    "split": "-",
-   "style": "Celtic folk, Gothenburg"
+   "style": "Celtic folk,Gothenburg"
  },
  {
    "ID": 37,
@@ -366,7 +366,7 @@
    "formed": "1999",
    "origin": "USA",
    "split": "-",
-   "style": "Progressive stoner, Progressive sludge"
+   "style": "Progressive stoner,Progressive sludge"
  },
  {
    "ID": 41,
@@ -375,7 +375,7 @@
    "formed": "1993",
    "origin": "USA",
    "split": "1993",
-   "style": "Brutal death, Technical death"
+   "style": "Brutal death,Technical death"
  },
  {
    "ID": 42,
@@ -384,7 +384,7 @@
    "formed": "1984",
    "origin": "Brazil",
    "split": "-",
-   "style": "Alternative, Death, Groove thrash, Thrash"
+   "style": "Alternative,Death,Groove thrash,Thrash"
  },
  {
    "ID": 43,
@@ -393,7 +393,7 @@
    "formed": "1989",
    "origin": "Portugal",
    "split": "1989",
-   "style": "Folk, Gothic black, Gothic, Symphonic black, Black"
+   "style": "Folk,Gothic black,Gothic,Symphonic black,Black"
  },
  {
    "ID": 44,
@@ -402,7 +402,7 @@
    "formed": "1987",
    "origin": "Sweden",
    "split": "-",
-   "style": "Death, Symphonic"
+   "style": "Death,Symphonic"
  },
  {
    "ID": 45,
@@ -420,7 +420,7 @@
    "formed": "1991",
    "origin": "Norway",
    "split": "-",
-   "style": "Viking black, Progressive black"
+   "style": "Viking black,Progressive black"
  },
  {
    "ID": 47,
@@ -429,7 +429,7 @@
    "formed": "1991",
    "origin": "Norway",
    "split": "1991",
-   "style": "Black, Symphonic black"
+   "style": "Black,Symphonic black"
  },
  {
    "ID": 48,
@@ -438,7 +438,7 @@
    "formed": "1987",
    "origin": "United Kingdom",
    "split": "-",
-   "style": "Progressive rock, Progressive"
+   "style": "Progressive rock,Progressive"
  },
  {
    "ID": 49,
@@ -447,5 +447,5 @@
    "formed": "1991",
    "origin": "United Kingdom",
    "split": "1991",
-   "style": "Extreme gothic, Symphonic black, Death, Symphonic"
+   "style": "Extreme gothic,Symphonic black,Death,Symphonic"
  }]

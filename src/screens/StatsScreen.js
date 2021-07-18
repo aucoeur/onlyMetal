@@ -1,19 +1,12 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { createStackNavigator } from '@react-navigation/stack';
+
+import Stats from '../components/Stats/Stats';
+
 
 export default function StatsScreen() {
+
   return (
-   <View style={style.container}>
-      <Text>Stats Screen</Text>
-    </View>
+    <Stats />
   );
 }
-
-const style = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

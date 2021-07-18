@@ -18,7 +18,7 @@
         - Year formed
 - [x] Challenge 5: Style Band Details
 - [x] Challenge 6: Stats tab
-- [ ] Challenge 7: Match styling
-- [ ] Challenge 8: Conditional styles
+- [x] Challenge 7: Match styling to sample images
+- [x] Challenge 8: Conditional styles
 - [ ] Challenge 9: Styles of Metal
 - [ ] Challenge 10: List unique styles
